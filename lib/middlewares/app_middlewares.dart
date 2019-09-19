@@ -1,10 +1,10 @@
 import 'package:redux/redux.dart';
 
+import 'package:game_app/actions/navigation_action.dart';
 import 'package:game_app/actions/login_actions.dart';
 import 'package:game_app/models/app_state.dart';
 import 'package:game_app/repository/repository.dart';
 import '../MyApp.dart';
-import '../navigation_action.dart';
 
 List<Middleware<AppState>> createAppMiddleware() {
   Repository repository = Repository();
