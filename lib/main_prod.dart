@@ -5,7 +5,7 @@ import 'package:game_app/MyApp.dart';
 void main() {
   // debugPaintSizeEnabled = true;
   environmentConfig = AppConfig(
-    appName: 'Travel Planner',
+    appName: 'My App',
     flavorName: 'production',
     apiBaseUrl: 'APP_BASE_URL',
   );

@@ -6,7 +6,7 @@ import 'constants/app_constants.dart';
 void main() {
   // debugPaintSizeEnabled = true;
   environmentConfig = AppConfig(
-    appName: 'Travel Planner',
+    appName: 'My App',
     flavorName: 'development',
     apiBaseUrl: 'APP_BASE_URL',
   );
